@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing the <GifsGridItem/> component for the Gifs App should show the component correctly 1`] = `
+<div
+  className="gif-card animate__animated animate__fadeInLeft"
+>
+  <img
+    alt="Random"
+    src="www.google.com"
+  />
+  <p>
+    Random
+  </p>
+</div>
+`;
