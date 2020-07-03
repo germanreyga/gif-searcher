@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tesing the <GifsGrid /> component should show the component correctly 1`] = `
+<Fragment>
+  <h3
+    className="category-name animate__animated animate__fadeIn"
+  >
+    random
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    "Loading images..."
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Tesing the <GifsGrid /> component should show the gif items when the images are loaded with useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="category-name animate__animated animate__fadeIn"
+  >
+    random
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifsGridItem
+      id="ABC"
+      key="ABC"
+      title="any"
+      url="https://google.com/i/ds.jpg"
+    />
+    <GifsGridItem
+      id="ABC2"
+      key="ABC2"
+      title="any"
+      url="https://google.com/i/ds.jpg"
+    />
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing the <CategoryAdder/> component should display the component correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p />
+  <input
+    onChange={[Function]}
+    placeholder="e.j. Hunter X Hunter"
+    type="text"
+    value=""
+  />
+  <button
+    className="submit-category"
+    type="submit"
+  >
+    Add new category
+  </button>
+</form>
+`;

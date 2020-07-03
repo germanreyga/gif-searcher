@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { CategoryAdder } from "./components/CategoryAdder";
 import { GifsGrid } from "./components/GifsGrid";
 
-function GifSearcherApp() {
-  const [categories, setCategories] = useState(["Berserk"]);
+export function GifSearcherApp({ defaultCategories = [] }) {
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <>
@@ -16,5 +16,3 @@ function GifSearcherApp() {
     </>
   );
 }
-
-export default GifSearcherApp;

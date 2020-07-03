@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing the <GifSeacherApp /> component should show a list of categories 1`] = `
+<Fragment>
+  <h2>
+    GifSearcherApp
+  </h2>
+  <hr />
+  <CategoryAdder
+    setCategories={[Function]}
+  />
+  <GifsGrid
+    category="Naruto"
+    key="Naruto"
+  />
+  <GifsGrid
+    category="Hunter x Hunter"
+    key="Hunter x Hunter"
+  />
+</Fragment>
+`;
+
+exports[`testing the <GifSeacherApp /> component should show the component correctly 1`] = `
+<Fragment>
+  <h2>
+    GifSearcherApp
+  </h2>
+  <hr />
+  <CategoryAdder
+    setCategories={[Function]}
+  />
+</Fragment>
+`;

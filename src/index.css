@@ -45,3 +45,16 @@ input {
   max-height: 150px;
   width: 100%;
 }
+
+.submit-category {
+  background-color: rgb(192, 191, 182);
+  border-radius: 1vw;
+  border-width: 0.2vw;
+  padding: 1vw;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.submit-category:hover {
+  cursor: pointer;
+}

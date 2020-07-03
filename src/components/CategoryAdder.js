@@ -15,12 +15,13 @@ export const CategoryAdder = ({ setCategories }) => {
 
       setInputValue("");
     } else {
-      window.alert("You must add a valid name");
+      console.log("You must add a valid name");
     }
   };
 
   return (
     <form onSubmit={handleSubmit}>
+      <p>{inputValue}</p>
       <input
         type="text"
         placeholder="e.j. Hunter X Hunter"
@@ -28,7 +29,9 @@ export const CategoryAdder = ({ setCategories }) => {
         onChange={(e) => setInputValue(e.target.value)}
       />
 
-      <button type="submit">Add new category</button>
+      <button type="submit" className="submit-category">
+        Add new category
+      </button>
     </form>
   );
 };
